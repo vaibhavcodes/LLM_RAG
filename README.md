@@ -4,3 +4,18 @@
 
 2. Also, store your key as an environment variable for easy and secure access: 
 >export RAG_OPENAI_KEY="Paste the key you have copied from the Openai dashboard"
+
+
+3. There are 2 ways to work on this:
+3.1. Open codespaces from github, and then select "VS Code Desktop" from the bottom, and install all the libraries mentioned in requirements.txt  
+
+
+3.2. Using miniconda:
+    => Open VS code and then open Terminal and run the following command:
+
+    => Download miniconda from [here](https://repo.anaconda.com/miniconda/Miniconda3-py310_24.7.1-0-Linux-x86_64.sh)  
+    
+    => Install it oustide your current workspace using the following command:
+        > bash Miniconda3-py310_24.7.1-0-Linux-x86_64.sh
+
+    => Install all the libraries mentioned in requirements.txt
