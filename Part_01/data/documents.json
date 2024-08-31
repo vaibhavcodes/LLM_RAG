@@ -48,14 +48,14 @@
         "question": "Course - Can I get support if I take the course in the self-paced mode?"
       },
       {
-        "text": "All the main videos are stored in the Main \u201cDATA ENGINEERING\u201d playlist (no year specified). The Github repository has also been updated to show each video with a thumbnail, that would bring you directly to the same playlist below.\nBelow is the MAIN PLAYLIST\u2019. And then you refer to the year specific playlist for additional videos for that year like for office hours videos etc. Also find this playlist pinned to the slack channel.\nhttps://youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&si=NspQhtZhZQs1B9F-",
+        "text": "All the main videos are stored in the Main \u201cDATA ENGINEERING\u201d playlist (no year specified). The Github repository has also been updated to show each video with a thumbnail, that would bring you directly to the same playlist below.\nBelow is the MAIN PLAYLIST\u2019. And then you refer to the year specific playlist for additional videos for that year like for office hours videos etc. Also find this playlist pinned to the slack channel.",
         "section": "General course-related questions",
         "question": "Course - Which playlist on YouTube should I refer to?"
       },
       {
         "text": "It depends on your background and previous experience with modules. It is expected to require about 5 - 15 hours per week. [source1] [source2]\nYou can also calculate it yourself using this data and then update this answer.",
         "section": "General course-related questions",
-        "question": "Course - \u200b\u200bHow many hours per week am I expected to spend on this  course?"
+        "question": "\u200b\u200bHow many hours per week am I expected to spend on this  course?"
       },
       {
         "text": "No, you can only get a certificate if you finish the course with a \u201clive\u201d cohort. We don't award certificates for the self-paced mode. The reason is you need to peer-review capstone(s) after submitting a project. You can only peer-review projects at the time the course is running.",
@@ -900,7 +900,7 @@
       {
         "text": "Git won\u2019t push an empty folder to GitHub, so if you put a file in that folder and then push, then you should be good to go.\nOr - in your code- make the folder if it doesn\u2019t exist using Pathlib as shown here: https://stackoverflow.com/a/273227/4590385.\nFor some reason, when using github storage, the relative path for writing locally no longer works. Try using two separate paths, one full path for the local write, and the original relative path for GCS bucket upload.",
         "section": "Module 2: Workflow Orchestration",
-        "question": "File Path: Cannot save file into a non-existent directory: 'data/green'"
+        "question": "File Path: Cannotas save file into a non-existent directory: 'data/green'"
       },
       {
         "text": "The green dataset contains lpep_pickup_datetime while the yellow contains tpep_pickup_datetime. Modify the script(s) depending on  the dataset as required.",

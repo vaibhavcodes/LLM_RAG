@@ -9,10 +9,8 @@ class similarDocSearch:
 
     Attributes:
         text_fields (list): List of text field names to index.
-        keyword_fields (list): List of keyword field names to index.
         vectorizers (dict): Dictionary of TfidfVectorizer instances i.e., cv for each text field.
-        keyword_df (pd.DataFrame): DataFrame containing keyword field data.
-        text_matrices (dict): Dictionary of TF-IDF matrices for each text field.
+        matrices (dict): Dictionary of TF-IDF matrices for each text field.
         documents (list): List of documents indexed.
     """
 
