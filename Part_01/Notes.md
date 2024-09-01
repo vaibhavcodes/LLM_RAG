@@ -1,9 +1,35 @@
 ## Search can be:- Text Search and Vector/Semantic Search
-1. <b> TEXT SEARCH:</b>
+1. <b style="font-size:1.5em"> TEXT SEARCH:</b>
  Suppose we have a file containing several Q/A, and based on our query, we need the Answer from that data file.
 
-     * Consider user asked the question=>  I just <span style="color:red">discovered</span> the <span style="color:red">course</span>, can I still <span style="color:red">join</span> it?
+     * Consider user asked the question=>  I just <span style="color:orange">discovered</span> the <span style="color:orange">course</span>, can I still <span style="color:orange">join</span> it?
 
      * Here the program will search the exact important keywords (highlighted ones) in the document, and will return the answer to the user.
 
-    <span style="color:green">Limitations:=> </span> If instead of <span style="color:red">join</span>, user writes <span style="color:red">enroll</span>, then in that case our program of text search will fail.
+    <span style="color:green; font-size:1.5em">Limitations:=> </span> If instead of <span style="color:orange">`join`</span>, user writes <span style="color:orange">`enroll`</span>, then in that case our program of text search will fail.
+
+    <span style="color:green; font-size:1.5em">Text Search Techniques:=> </span> `CountVectorizer` and `TF-IDF`
+<br>
+<br>
+
+2. <b style="font-size:1.5em"> Vector SEARCH EMBEDDINGS:</b> In this search, the semantics will be captured rather than the words i.e, unlike Text Search which when executed creates a large vector of words from the documents passed, here compression of large vector into small happen and small vector will be created and each value in that vector will resemble a semantic or a topic, so everything like synonyms, antonyms, etc will be captured. 
+
+    * Suppose user asks=> I just <span style="color:orange">discovered</span> the <span style="color:orange">course</span>, can I still <span style="color:orange">join</span> it?
+
+    * Here as semantic is captured, so if in all our documents only `join` word is there and if user mentions `enroll` in his question, then also it will be captured since join and enroll belong to the same semantics.  
+
+    <span style="color:green; font-size:1.5em">Problem with text:=> </span> - Text Search only concerns about exact matches of the terms, but not the synonyms. So, deal with semantics like synonyms, etc. we use Vector Search Embeddings.
+
+    <span style="color:green; font-size:1.5em">Vector Search EMbedding Techniques:=> </span> `SVD`, `NMF`, `BERT`, etc.
+<br>
+<br>
+
+3. <b style="font-size:1.5em"> What are Embeddings? </b>
+
+    * <b>Conversion to Numbers:</b> Embeddings transform different words, sentences and documents into dense vectors (arrays with numbers) of semantics unlike sparse matrix in Text Search.
+
+    * <b>Capturing Similarity:</b> They ensure similar items have similar numerical vectors, illustrating their closeness in terms of characteristics.
+
+    * <b>Dimensionality Reduction:</b> Embeddings reduce complex characteristics (i.e., Bag of Words having high dimension) into vectors of semantics (Low dimension of semantics or topics).
+    
+    * <b>Use in Machine Learning:</b> These numerical vectors are used in machine learning models for tasks such as recommendations, text analysis,  text similarity and pattern recognition.
