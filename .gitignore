@@ -163,3 +163,4 @@ cython_debug/
 
 # RAG PROJECT FILES
 credentials.txt
+Part_01/credentials.py
