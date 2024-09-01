@@ -20,17 +20,19 @@ class similarDocSearch:
         self.matrices = {}
         self.vectorizers = {}
         self.documents = None
+        self.documents_df = None
 
     # Training vectorizers on data
     def fit(self, documents):
         # Creating a dataframe out of documents which contains dictionary of 
         # {course_name, section, question, text} for every document
-        self.documents = pd.DataFrame(documents)
+        self.documents = documents
+        self.documents_df = pd.DataFrame(documents)
         for field in self.text_fields:
             # Vector creation
             cv = TfidfVectorizer(stop_words='english', min_df=3)
             # Weighted Matrix formation for the field
-            X = cv.fit_transform(self.documents[field] )
+            X = cv.fit_transform(self.documents_df[field] )
             # Storing the vectorizer i.e, cv corresponding to the field
             self.vectorizers[field] = cv
             # Storing the weight matrix formed for the field
@@ -56,7 +58,7 @@ class similarDocSearch:
             sim_score_result += sim_score[field] * boosts.get(field, 1)
         
         # Creating a mask to get the result based on user provided prefernce of the field values
-        reqd_mask = (self.documents['course']==filter_course).apply(int)
+        reqd_mask = (self.documents_df['course']==filter_course).apply(int)
 
         # If we multiply both the reqd_mask and sim_score_result, All the required course 
         # rows will be multiplied by 1 and rest will be by 0
@@ -66,7 +68,7 @@ class similarDocSearch:
         doc_index_similarity_order = np.argsort(resultant_sim_score)[::-1] # argsort return the o/p in ascending order so we have reversed using [::-1]
         
         # Getting top required number of documents similar to our query
-        top_docs = self.documents.loc[doc_index_similarity_order[:num_results]]
+        top_docs = [self.documents[i] for i in doc_index_similarity_order[:num_results]]
         return top_docs
 
 
