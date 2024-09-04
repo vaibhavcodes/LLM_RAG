@@ -18,7 +18,23 @@ As can be seen from the image above, that when the base model (general purpose m
 
 Q-3: Why should we fine tune LLM?
 
-Ans-
-  * It helps in getting more consistent outputs.
-  * It helps in resucing hallucinations.
-  * It helps in customizing the model to a specific use case (as shown above in the image).
+Ans- 
+1. Performance:
+>  * It helps in resucing hallucinations.
+>  * It helps in getting more consistent outputs.
+>  * It helps in reducing unwanted info like we have seen in chatgpt several times when it doesn't have any answer to a question it replies by saying "sorry i dont know". Similarly we can get organization related replies after fine tuning i.e., It helps in customizing the model to a specific use case (as shown above in the image).
+
+2. Privacy:
+>  * 
+>  * 
+>  * 
+
+3. Privacy:
+>  * 
+>  * 
+>  *
+
+4. Privacy:
+>  * 
+>  * 
+>  *
