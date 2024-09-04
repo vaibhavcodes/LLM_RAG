@@ -22,7 +22,7 @@ Ans-
 1. Performance:
 >  * It helps in resucing hallucinations.
 >  * It helps in getting more consistent outputs.
->  * It helps in reducing unwanted info like we have seen in chatgpt several times when it doesn't have any answer to a question it replies by saying "sorry i dont know". Similarly we can get organization related replies after fine tuning i.e., It helps in customizing the model to a specific use case (as shown above in the image).
+>  * It helps in reducing unwanted info like we have seen in chatgpt several times when it doesn't have any answer to a question it replies by saying "sorry i dont know". Similarly we can get organization related replies after fine tuning to help the person who's chatting to stay on track i.e., It helps in customizing the model to a specific use case (as shown above in the image).
 
 2. Privacy:
 >  * 
