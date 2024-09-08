@@ -4,8 +4,9 @@
 <br>
 <br>
 2. Also, store your key as an environment variable for easy and secure access: 
-    > export RAG_OPENAI_KEY="Paste the key you have copied from the Openai dashboard"
-
+    ```bash
+    export RAG_OPENAI_KEY="Paste the key you have copied from the Openai dashboard"
+    ```
 <br>
 
 3. There are 2 ways to work on this:<br>
@@ -21,3 +22,5 @@
             > bash Miniconda3-py310_24.7.1-0-Linux-x86_64.sh
 
         => Install all the libraries mentioned in the requirements.txt
+
+

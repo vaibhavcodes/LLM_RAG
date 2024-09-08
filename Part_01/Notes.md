@@ -47,3 +47,19 @@
     * SVD "compresses" our input vectors in such a way that as much as possible of the original information is retained.
 
     * This compression is lossy compression - meaning that we won't be able to restore the 100% of the original vector, but the result is close enough.
+
+
+5. <b style="font-size:1.5em"> Installation of Vector database: ElasticSearch </b>
+
+    ```bash
+    docker run -it \
+        --rm \
+        --name elasticsearch \
+        -m 4GB \
+        -p 9200:9200 \
+        -p 9300:9300 \
+        -e "discovery.type=single-node" \
+        -e "xpack.security.enabled=false" \
+        docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+
+    ```
