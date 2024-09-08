@@ -63,3 +63,64 @@
         docker.elastic.co/elasticsearch/elasticsearch:8.4.3
 
     ```
+
+6. <b style="font-size:1.5em"> When querying the ElasticSearch Vector DB, there are several options to be put in the `type` attribute that is present under `multi-match` key as can be seen from the <span style="color:green; font-size:1.5em">Query</span> syntax below:</b>
+
+    ```python
+    {
+        "size": 5,
+        "query": {
+            "bool": {
+                "must": {
+                    "multi_match": {
+                        "query": query,
+                        "fields": ["question^3", "text", "section"],
+                        "type": "best_fields"
+                    }
+                },
+                "filter": {
+                    "term": {
+                        "course": "data-engineering-zoomcamp"
+                    }
+                }
+            }
+        }
+    }
+    ```
+
+    * The `multi_match` query is used to search for a given text across multiple fields in an Elasticsearch index.
+
+       - It provides various types to control how the matching is executed and scored.
+
+        - There are multiple types of multi_match queries:
+
+            `best_fields`: Returns the highest score from any one field. <br>
+            `most_fields`: Combines the scores from all fields. <br>
+            `cross_fields`: Treats fields as one big field for scoring. <br>
+            `phrase`: Searches for the query as an exact phrase. <br>
+            `phrase_prefix`: Searches for the query as a prefix of a phrase. <br><br>
+
+    *  <b style="color:green; font-size:1.5em"> 6.1. best_fields </b>
+        - The `best_fields` type searches each field separately and returns the highest score from any one of the fields.
+
+        - This type is useful when you want to find documents where at least one field matches the query well.
+
+    *  <b style="color:green; font-size:1.5em"> 6.2. most_fields </b>
+        - The `most_fields` type searches each field and combines the scores from all fields.
+
+        - This is useful when the relevance of a document increases with more matching fields.
+
+    *  <b style="color:green; font-size:1.5em"> 6.3. cross_fields </b>
+        - The `cross_fields` type treats fields as though they were one big field.
+
+        - It is suitable for cases where you have fields representing the same text in different ways, such as synonyms.
+
+    *  <b style="color:green; font-size:1.5em"> 6.4. phrase </b>
+        - The `phrase type` looks for the query as an exact phrase within the fields.
+
+        - It is useful for exact match searches.
+
+    *  <b style="color:green; font-size:1.5em"> 6.5. phrase_prefix </b>
+        - The `phrase_prefix` type searches for documents that contain the query as a prefix of a phrase.
+
+        - This is useful for autocomplete or typeahead functionality.
