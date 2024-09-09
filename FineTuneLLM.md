@@ -1,10 +1,11 @@
 Q-1: What is fine tuning?
 
 Ans- 
-> Taking a general purpose model like GPT-3 and specialising them like ChatGPT, GPT-4 and specialising it into GitHub Copilot.
+* Taking a general purpose model like GPT-3 and specialising it into ChatGPT, and taking GPT-4 and specialising it into GitHub Copilot.
 
-> It's just like a PCP which is a health care practitioner who sees people that have common medical problems, but when specialised can become Neurologist or Radiologist or Cardiologist and look into a specific problem in depth.
+* It's just like a PCP which is a health care practitioner who sees people that have common medical problems, but when specialised can become Neurologist or Radiologist or Cardiologist and look into a specific problem in depth.
 
+<hr>
 
 Q-2: What fine tuning does?
 
@@ -15,6 +16,7 @@ Ans-
 
 As can be seen from the image above, that when the base model (general purpose model) is finetuned over Dermatology data, it gave a very descriptive and specialised information to the symptoms provided by the user.
 
+<hr>
 
 Q-3: Why should we fine tune LLM?
 
@@ -38,3 +40,5 @@ Ans-
 >  * 
 >  * 
 >  *
+
+<hr>
