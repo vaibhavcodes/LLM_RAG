@@ -28,11 +28,11 @@
 <hr>
 
 4. <b style="color:green; font-size:1.5em"> Working with SaturnCloud </b> <br>
-    4.1. Go to the <a href="https://saturncloud.io/">SaturnCloud</a>, and click on <b>Getting a Demo</b>. You will get an email after sometime asking you to SignUp and start working with it. 
+    4.1. Go to the [SaturnCloud](https://saturncloud.io/), and click on <b>Getting a Demo</b>. You will get an email after sometime asking you to SignUp and start working with it. 
 <br>
 <br>
 
-    4.2. After logging, go to <a href="https://app.community.saturnenterprise.io/dash/o/community/resources/jupyterServer">Resource </a> tab, and create a Jupyter Server. Then do the following needful as highlighted in the images attached:
+    4.2. After logging, go to [Resource](https://app.community.saturnenterprise.io/dash/o/community/resources/jupyterServer) tab, and create a Jupyter Server. Then do the following needful as highlighted in the images attached:
      * Fill the Name
      * Select the Hardware
      * Select the petinent Image and Version
@@ -42,11 +42,11 @@
 <br>
 <br>
 
-    4.3. Now to make SSH connection to the Github repositories, go to the <a href="https://app.community.saturnenterprise.io/dash/o/community/secrets"> Secrets</a> tab, and create a new <b>Public Key</b>, and then <b>paste this key</b> under the SSH Key option present in the Github <a href="https://github.com/settings/keys">Settings</a>.
+    4.3. Now to make SSH connection to the Github repositories, go to the [Manage](https://app.community.saturnenterprise.io/dash/o/community/user-details/) tab under <b>User</b> option, and create a new <b>Public Key</b>, and then <b>paste this key</b> under the SSH Key option present in the Github <a href="https://github.com/settings/keys">Settings</a>.
 <br>
 <br>
 
-    4.4. Go to <a href="https://app.community.saturnenterprise.io/dash/o/community/secrets">Secrets</a> tab to store your confidential Access Keys.
+    4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc..
 <br>
 <br>
 
