@@ -1,4 +1,4 @@
-# LLM_RAG
+# Large Language Models (LLM)
 
 1. We need an OpenAi key so got to [platform.openai.com](https://platform.openai.com) and register there. Then go to [Dashboard](https://platform.openai.com/assistants) and click on API Keys option.
 
