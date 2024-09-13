@@ -15,15 +15,17 @@
 3.1. Open codespaces from github, and then select "VS Code Desktop" from the bottom, and install all the libraries mentioned in requirements.txt  
 
 
-    3.2. Using miniconda:
-    => Open VS code and then open Terminal and run the following command:
+   3.2. Using miniconda:
+=> Open VS code and then open Terminal and run the following command:
 
-        => Download miniconda from [here](https://repo.anaconda.com/miniconda/Miniconda3-py310_24.7.1-0-Linux-x86_64.sh)  
+   => Download miniconda from [here](https://repo.anaconda.com/miniconda/Miniconda3-py310_24.7.1-0-Linux-x86_64.sh)  
     
-         => Install it outside your current workspace using the following command:
-            > bash Miniconda3-py310_24.7.1-0-Linux-x86_64.sh
+   => Install it outside your current workspace using the following command:
 
-        => Install all the libraries mentioned in the requirements.txt
+   ```bash
+         bash Miniconda3-py310_24.7.1-0-Linux-x86_64.sh
+   ```
+   => Install all the libraries mentioned in the requirements.txt
 
 <hr>
 
