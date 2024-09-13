@@ -48,7 +48,7 @@
 
    4.5. Once Jupyter Server gets start, select either of <b>Jupyter Lab</b> OR <b>Jupyter Server</b> as per your preference, and start using the GPU for your AI task.
    
-   =>To check the number of GPUs available, run the ollowing command in the notebook:
+   * To check the number of GPUs available, run the following command in the notebook:
 
      ```python
          !nvidia-smi
