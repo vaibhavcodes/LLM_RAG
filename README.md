@@ -29,7 +29,7 @@
 
 <hr>
 
-4. <b style="color:green; font-size:1.5em"> Working with SaturnCloud </b> <br>
+4. <b style="color:green; font-size:1.5em"> Working with SaturnCloud (Alternative to GoogleColab) </b> <br>
 
    4.1. Go to the [SaturnCloud](https://saturncloud.io/), and click on <b>Getting a Demo</b>. You will get an email after sometime asking you to SignUp and start working with it. 
 
