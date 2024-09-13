@@ -18,7 +18,7 @@ As can be seen from the image above, that when the base model (general purpose m
 
 <hr>
 
-Q-3: Why should we fine tune LLM?
+Q-3: Why should we finetune LLM?
 
 Ans- 
 1. Performance:
