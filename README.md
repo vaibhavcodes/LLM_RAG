@@ -46,7 +46,7 @@
 <br>
 <br>
 
-    4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc..
+    4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc.,.
 <br>
 <br>
 
