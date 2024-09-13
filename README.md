@@ -1,13 +1,15 @@
 # LLM_RAG
 
 1. We need an OpenAi key so got to [platform.openai.com](https://platform.openai.com) and register there. Then go to [Dashboard](https://platform.openai.com/assistants) and click on API Keys option.
-<br>
-<br>
+
+
+
 2. Also, store your key as an environment variable for easy and secure access: 
     ```bash
     export RAG_OPENAI_KEY="Paste the key you have copied from the Openai dashboard"
     ```
-<br>
+
+
 
 3. There are 2 ways to work on this:<br>
 3.1. Open codespaces from github, and then select "VS Code Desktop" from the bottom, and install all the libraries mentioned in requirements.txt  
@@ -23,31 +25,23 @@
 
         => Install all the libraries mentioned in the requirements.txt
 
-<br>
-
 <hr>
 
-4. <b style="color:green; font-size:1.5em"> Working with SaturnCloud </b> <br>
-    4.1. Go to the [SaturnCloud](https://saturncloud.io/), and click on <b>Getting a Demo</b>. You will get an email after sometime asking you to SignUp and start working with it. 
-<br>
-<br>
+4. <b style="color:green; font-size:1.5em"> Working with SaturnCloud </b> 
 
-    4.2. After logging, go to [Resource](https://app.community.saturnenterprise.io/dash/o/community/resources/jupyterServer) tab, and create a Jupyter Server. Then do the following needful as highlighted in the images attached:
+4.1. Go to the [SaturnCloud](https://saturncloud.io/), and click on <b>Getting a Demo</b>. You will get an email after sometime asking you to SignUp and start working with it. 
+
+4.2. After logging, go to [Resource](https://app.community.saturnenterprise.io/dash/o/community/resources/jupyterServer) tab, and create a Jupyter Server. Then do the following needful as highlighted in the images attached:
      * Fill the Name
      * Select the Hardware
      * Select the petinent Image and Version
      * Mention the packages to be installed
      * Add the git repository to connect to your resource to your code. 
     ![alt text](images/saturncloud_beginning.png)
-<br>
-<br>
 
-    4.3. Now to make SSH connection to the Github repositories, go to the [Manage](https://app.community.saturnenterprise.io/dash/o/community/user-details/) tab under <b>User</b> option, and create a new <b>Public Key</b>, and then <b>paste this key</b> under the SSH Key option present in the Github <a href="https://github.com/settings/keys">Settings</a>.
-<br>
-<br>
+4.3. Now to make SSH connection to the Github repositories, go to the [Manage](https://app.community.saturnenterprise.io/dash/o/community/user-details/) tab under <b>User</b> option, and create a new <b>Public Key</b>, and then <b>paste this key</b> under the SSH Key option present in the Github <a href="https://github.com/settings/keys">Settings</a>.
 
-    4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc.,.
-<br>
-<br>
+4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc.,.
+
 
 <hr>
