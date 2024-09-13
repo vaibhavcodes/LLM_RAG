@@ -47,6 +47,12 @@
    4.4. Go to [Secrets](https://app.community.saturnenterprise.io/dash/o/community/secrets) tab to store your confidential Access Keys like OpenAi api key, HuggingFace Key, etc.,.
 
    4.5. Once Jupyter Server gets start, select either of <b>Jupyter Lab</b> OR <b>Jupyter Server</b> as per your preference, and start using the GPU for your AI task.
+   
+   =>To check the number of GPUs available, run the ollowing command in the notebook:
+
+     ```python
+         !nvidia-smi
+     ``` 
 
 
 <hr>
