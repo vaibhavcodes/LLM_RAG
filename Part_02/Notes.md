@@ -9,4 +9,11 @@
     os.environ['HF_HOME'] = '/run/cache/'
     ```
 
-4. Always be mindful to read the documentation of the Hugging Face models so as to install the required packages.
+4. Always be mindful to read the documentation of the Hugging Face models so as to install the required packages, and for Hugging face models, it is recommended to install packages from HuggingFace as there are many functions which are additionally created by Hugging Face but are not present in general library such as transformers, accelerate, etc..
+
+    ```python
+    pip install git+https://github.com/huggingface/transformers.git
+    pip install git+https://github.com/huggingface/accelerate
+    ```
+
+5. 
