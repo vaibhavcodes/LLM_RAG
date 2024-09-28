@@ -62,3 +62,18 @@
     ![alt text](/images/correctPrompt.png)
  
  <HR>
+
+4)  <b style="color:red; font-size:2.0em"> Lifecycle of Prompt Development</b>
+
+
+      Prompt development is an `iterative` process where you:
+    * Need to try something in the prompt
+    * Analyse where the results doesn't satisfy your requirements or hallucinate
+    * Clarify instructions in the prompt that would give more time to the model to think.
+    * Try refining the prompts by providing few examples.
+
+      ![alt text](/images/PromptLifecycle.png)
+
+ <HR>
+
+ 
