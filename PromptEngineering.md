@@ -76,4 +76,10 @@
 
  <HR>
 
- 
+5)  <b style="color:red; font-size:2.0em"> Different `role` provided in the prompt</b>
+
+      `system` role sets the behaviour or persona of the assistant, `user` is the role of ours who provides input to the LLM model, and `assistant` is the model who gives answer to our question, but it can be considered that system whispers the answer into the assistant ears without user getting know about it.
+
+      ![alt text](/images/roles.png)
+
+<HR>
