@@ -100,3 +100,10 @@
                
 
 <HR>
+
+6) <b style="color:red; font-size:2.0em"> Creation of chatbot</b>
+
+
+      Normally, for every prompt going into the message we are getting only one response. But for the chatbot, we need to make it recursive so that multiple roles can be passed recursively as can be seen from the following image where we need to pass multiple messages recursively.
+
+      ![alt text](/images/continuousMessageForChatbot.png)

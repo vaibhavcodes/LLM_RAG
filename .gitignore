@@ -164,3 +164,4 @@ cython_debug/
 # RAG PROJECT FILES
 credentials.txt
 Part_01_Basics/credentials.py
+DeepLearningAI/credentials.py
