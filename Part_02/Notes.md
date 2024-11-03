@@ -16,4 +16,4 @@
     pip install git+https://github.com/huggingface/accelerate
     ```
 
-5. 
+5.
